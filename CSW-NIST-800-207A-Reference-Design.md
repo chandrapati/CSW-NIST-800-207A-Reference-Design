@@ -23,7 +23,7 @@ across satellite locations, multi-cloud environments, and partner
 boundaries; and security architects who already have an 800-207
 baseline and need to operationalize it.
 
-> If you haven't read the [800-207 runbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md)
+> If you haven't read the [800-207 runbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md)
 > yet, start there. 800-207A assumes you understand the seven tenets
 > and is concerned with *how the components actually wire together*.
 
@@ -75,7 +75,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -583,9 +583,9 @@ Partner access model:
 
 ## Related Frameworks
 
-- [NIST SP 800-207 — ZTA Seven Tenets](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the architectural prerequisite for 800-207A.
-- [CISA Zero Trust Maturity Model v2.0](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/CISA-ZeroTrust/CSW-CISA-ZTMM-Technical-Runbook.md) — the maturity-tier view that maps onto the same logical components.
-- [NIST SP 800-53 Rev 5](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md) — AC, SI, SC families that the PDP/PEP/PA/PIP architecture operationalises.
+- [NIST SP 800-207 — ZTA Seven Tenets](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the architectural prerequisite for 800-207A.
+- [CISA Zero Trust Maturity Model v2.0](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/CISA-ZeroTrust/CSW-CISA-ZTMM-Technical-Runbook.md) — the maturity-tier view that maps onto the same logical components.
+- [NIST SP 800-53 Rev 5](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md) — AC, SI, SC families that the PDP/PEP/PA/PIP architecture operationalises.
 
 ---
 
@@ -603,4 +603,4 @@ Partner access model:
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*
