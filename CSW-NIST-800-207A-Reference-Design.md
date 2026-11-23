@@ -2,10 +2,10 @@
 ## Reference Design | PDP/PEP/PA/PIP Implementation Guide
 
 **Version:** 1.0  
-**Standard:** NIST SP 800-207A (Public Draft) — ZTA Model for Access Control in Cloud-Native & Multi-Cloud Environments  
+**Standard:** [NIST SP 800-207A](https://csrc.nist.gov/pubs/sp/800/207/a/final) (Final, 13 September 2023) — *A Zero Trust Architecture Model for Access Control in Cloud-Native Applications in Multi-Cloud Environments*  
 **Environment:** Hybrid (On-Premises + AWS / Azure / GCP)
 
-> ⚠ **Draft Notice:** NIST SP 800-207A is in public draft / comment stage. This reference design is anchored to the stable PDP/PEP/PA/PIP logical component model, which is consistent with SP 800-207 and unlikely to change materially. Sections derived from draft-specific content are marked **[DRAFT REF]**. Verify against the final published standard before use in formal audit submissions.
+> **Source-text note.** SP 800-207A has been **final since 13 September 2023**; the public draft it superseded was issued 18 April 2023. This reference design is anchored to the PDP/PEP/PA/PIP logical component model, which is consistent with SP 800-207 and carried through from draft to final. Sections originally authored against the April 2023 draft are marked **[VERIFY vs FINAL]** — the guidance there is sound, but reconcile the specific wording against the final publication before using it in a formal audit submission.
 
 ---
 
@@ -452,7 +452,7 @@ Cross-correlate in SIEM with:
 
 ## 6. 800-207A Access Transaction — Step-by-Step Trace
 
-**[DRAFT REF] — Access transaction model from 800-207A public draft**
+**[VERIFY vs FINAL]** — access transaction model, authored against the April 2023 draft of SP 800-207A.
 
 Scenario: Service A (client workload) → Service B (API server) on port 443
 
@@ -492,7 +492,7 @@ T=end   Session terminates (FIN/RST)
 
 ## 7. Use Case Implementation Guides
 
-### Use Case 1 — Enterprise with Satellite Facilities **[DRAFT REF]**
+### Use Case 1 — Enterprise with Satellite Facilities **[VERIFY vs FINAL]**
 
 ```
 Scope Architecture:
@@ -508,7 +508,7 @@ Key policies:
   LOG: All cross-facility flows (full audit trail)
 ```
 
-### Use Case 2 — Multi-Cloud Enterprise **[DRAFT REF]**
+### Use Case 2 — Multi-Cloud Enterprise **[VERIFY vs FINAL]**
 
 ```
 Cloud connector setup per provider:
@@ -526,7 +526,7 @@ Policy: Same allowlist workspace governs ALL cloud workloads
         ADM discovers cross-cloud dependencies automatically
 ```
 
-### Use Case 3 — Collaboration Across Enterprise Boundaries **[DRAFT REF]**
+### Use Case 3 — Collaboration Across Enterprise Boundaries **[VERIFY vs FINAL]**
 
 ```
 Partner access model:
@@ -591,7 +591,7 @@ Partner access model:
 
 *Customer-facing guidance. Tailor examples and scope notes to your environment before formal audit submission.*  
 *For full NIST 800-207A ZTA coverage, pair CSW with complementary identity, access, and detection controls (for example: Cisco Secure Access, Cisco ISE, Cisco XDR, and Cisco Talos).*  
-*[DRAFT REF] sections based on NIST SP 800-207A public draft — verify against final publication.*
+*[VERIFY vs FINAL] sections were authored against the April 2023 draft of NIST SP 800-207A; the standard has been final since 13 September 2023. Reconcile wording against the [final publication](https://csrc.nist.gov/pubs/sp/800/207/a/final) before formal audit submission.*
 
 
 ---
